@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  text-align: center;
+  background: #00ecb9;
+  font-family: sans-serif;
+  font-weight: 100;
+
+  background-image: url('./images/bg-pattern.png');
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 48px;
+  color: black;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 15px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  border-color: grey;
+}
+
+.box {
+  display: block;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.box__item {
+  list-style: none;
+}
+
+.list__country {
+  display: block;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  /* padding: 15px; */
+  /* margin-bottom: 24px; */
+}
